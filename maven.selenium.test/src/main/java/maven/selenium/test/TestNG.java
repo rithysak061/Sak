@@ -13,24 +13,29 @@ import org.testng.annotations.Test;
 
 public class TestNG{
 	
-	@FindBy(xpath="//div[@class='Header_main__sSUvP']/button[1]")
-	private WebElement loginForm;
-	
-	@FindBy(xpath="//div[@class='ContentTemplate_input-item__Om38a ']/input[@placeholder='Username']")
-	private WebElement username;
-	
-	@FindBy(xpath="//div[@class='ContentTemplate_input-item__Om38a ']/input[@placeholder='Password']")
-	private WebElement password;
-	
-	@FindBy(xpath="//div[@class='ContentTemplate_input-item__Om38a  relative']/input[@placeholder='Verification Code']")
-	private WebElement captcha;
-	
-	@FindBy(xpath="//div[@class='ContentTemplate_item__wOdKv pt-4']/button[@class='SubmitButton_submit__luKqw ']")
-	private WebElement loginBtn;
-	
-	@FindBy(xpath="//div[3][@class='AlertBoard_footer__bkwb7']/button[1]")
-	private WebElement closeForm;
-	
+	/*
+	 * @FindBy(xpath="//div[@class='Header_main__sSUvP']/button[1]") private
+	 * WebElement loginForm;
+	 * 
+	 * @FindBy(
+	 * xpath="//div[@class='ContentTemplate_input-item__Om38a ']/input[@placeholder='Username']"
+	 * ) private WebElement username;
+	 * 
+	 * @FindBy(
+	 * xpath="//div[@class='ContentTemplate_input-item__Om38a ']/input[@placeholder='Password']"
+	 * ) private WebElement password;
+	 * 
+	 * @FindBy(
+	 * xpath="//div[@class='ContentTemplate_input-item__Om38a  relative']/input[@placeholder='Verification Code']"
+	 * ) private WebElement captcha;
+	 * 
+	 * @FindBy(
+	 * xpath="//div[@class='ContentTemplate_item__wOdKv pt-4']/button[@class='SubmitButton_submit__luKqw ']"
+	 * ) private WebElement loginBtn;
+	 * 
+	 * @FindBy(xpath="//div[3][@class='AlertBoard_footer__bkwb7']/button[1]")
+	 * private WebElement closeForm;
+	 */
 	String URL = "https://dev.super6666.com/en/";
 	String driverPath = "C:\\\\Users\\\\85516\\\\Downloads\\\\geckodriver-v0.32.0-win64\\\\geckodriver.exe";
 	public WebDriver driver;
